@@ -1,0 +1,150 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    text-decoration: none;
+    list-style: none;
+   overflow-wrap: hidden;
+  
+   
+}
+/* body{background-color: rgb(9, 88, 99);} */
+
+#sec1{margin-top: 2rem;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    background: lightgoldenrodyellow;
+    
+   
+}
+
+.hero_farmer_image{
+    display:block;
+    width:70%;
+    height:auto;
+    margin:auto;
+    padding:5px;
+    border-radius: 15px;
+   
+}
+.hero_text{width:100%}
+.hero_text_letter{
+    margin-top: 1rem;
+     text-align:center;
+    font-size: 1.5rem;
+    padding:10px;
+    color:blue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+@media (min-width:1024px){
+    #sec1{
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .hero{ flex-basis:40% ;}
+    .hero_text_letter{font-size: 2.5rem;}
+    }
+
+   #sec2{
+       background:lightskyblue;
+   }
+@media (min-width:900px){
+    #sec2{display: flex;
+    justify-content: center;
+flex-wrap: wrap;}
+.filler{
+    flex-basis: 50%;
+}
+#table_content{
+    margin-top:1rem;
+}
+}
+
+#sec3{
+    margin-top:auto ;
+    display:flex;
+    position: relative;
+    
+    bottom: 0;
+    justify-content:space-around;
+    align-items: center;
+    background-color: black;
+    color: blanchedalmond;
+}
+
+#sec4{
+    margin-top:2rem;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:500%;
+    overflow:auto;
+    animation:mada 50s linear infinite;
+    animation-delay: 20s;
+}
+
+@keyframes mada{
+    100%{
+        transform: translate(-3000px);
+    }
+}
+
+.dealers{
+    border:2px solid black;
+    box-shadow: 2px 3px 5px gray;
+    width:60%;
+    height:auto;
+    margin:1rem;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+   .deal_img{
+        width:50%;
+        height:auto;
+        border-radius: 50%;
+   }
+
+   @media (min-width:900px){
+       
+#sec4{
+    margin-top:2rem;
+    display:flex;
+    
+    justify-content: center;
+    align-items: center;
+    width:200%;
+    overflow:auto;
+    animation:mada 50s linear infinite;
+    animation-delay: 20s;
+}
+
+@keyframes mada{
+    100%{
+        transform: translate(-3000px);
+    }
+}
+
+.dealers{
+    border:2px solid black;
+    box-shadow: 2px 3px 5px gray;
+    width:40%;
+    height:auto;
+    margin:1rem;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+   }
+
+   .modal_item{margin-top:1rem;}
