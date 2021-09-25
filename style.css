@@ -4,7 +4,7 @@
     box-sizing:border-box;
     text-decoration: none;
     list-style: none;
-   overflow-wrap: hidden;
+   overflow-x: hidden;
   
    
 }
@@ -121,7 +121,7 @@ flex-wrap: wrap;}
     justify-content: center;
     align-items: center;
     width:200%;
-    overflow:auto;
+   
     animation:mada 50s linear infinite;
     animation-delay: 20s;
 }
