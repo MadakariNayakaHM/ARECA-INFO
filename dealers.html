@@ -12,7 +12,7 @@
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
  integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
 </head>
-<body>
+<body onload="ReloadTaskCard()">
 
   <div class="modal fade" tabindex="-1" id="newModalCard" aria-labelledby="newCardModalLabel" aria-hidden="true">
     <div class="modal-dialog">
@@ -67,7 +67,7 @@
           </div>
         </div>
       </nav>
-      <h1 style="text-align: center;color:coral">Here is our brand dealers</h1>
+      <h1 style="text-align: center; font-size: 2rem; color:coral;margin-top: 4rem; overflow: hidden;">Here is our brand dealers</h1>
 <section id="sec4" style=" overflow-x: hidden;">
   <div class="dealers"><img src="./images/del5.jpg" alt="" class="deal_img">
   <div class="dealer_text"><p>
@@ -85,7 +85,7 @@
   
   
 </section>
-<h1 style="text-align: center;">Place to add formers feedback </h1>
+<h1 style="text-align: center;overflow: hidden;color: chocolate;">Place to add formers feedback </h1>
 <section class="modal_item">
   <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#newModalCard">
     <i class="fas fa-plus" style="display: block;width: auto;height: auto;margin: auto;"></i>ADD NEW FEEDBACK</button>
