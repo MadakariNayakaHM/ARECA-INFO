@@ -19,7 +19,7 @@ const addCard=()=>{
 const generateCard=({id,candidate,number,words})=>{
     return(`<div class="col-md-6 col-lg-4 mb-3" id=${id} key=${id}>
     <div class="card">
-      <div class="card-header d-flex ">
+      <div class="card-header d-flex bg-dark text-light">
         <div class="container">
       <p style="color:green;" >My Feedback</p>
     </div>
@@ -30,10 +30,10 @@ const generateCard=({id,candidate,number,words})=>{
       </button>
     </div>
     </div>
-      <div class="card-body">
-        <p class="card-title">${candidate}</p>
+      <div class="card-body bg-dark-50">
+        <p class="card-title text-primary">${candidate}</p>
         <p class="card-text">${words}</p>
-        <a href="#" class="btn btn-primary">${number}</a>
+        <a href="#" class="btn btn-warning text-dark">${number}</a>
       </div>
     </div>
   </div>`);
